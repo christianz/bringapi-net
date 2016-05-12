@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json;
 
 namespace BringApi.Net
 {
     public class BringProduct
     {
+        [JsonProperty("productId")]
         public string ProductId { get; set; }
-        public int ProductCodeInProductionSystem { get; set; }
+
+        [JsonProperty("productCodeInProductionSystem")]
+        public int? ProductCodeInProductionSystem { get; set; }
+
+        [JsonProperty("price")]
         public BringPrice Price { get; set; }
     }
 }

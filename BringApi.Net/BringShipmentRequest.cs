@@ -30,10 +30,7 @@ namespace BringApi.Net
         public DateTime? Time { get; set; }
 
         [JsonProperty("clientUrl")]
-        public string ClientUrl
-        {
-            get { return BringConfiguration.GetClientUrl(); }
-        }
+        public string ClientUrl => BringConfiguration.GetClientUrl();
 
         [JsonProperty("edi")]
         public bool? Edi { get; set; }

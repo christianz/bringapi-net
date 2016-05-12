@@ -47,15 +47,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BringAddress.cs" />
     <Compile Include="BringConfiguration.cs" />
     <Compile Include="ApiHelper.cs" />
+    <Compile Include="BringCountry.cs" />
+    <Compile Include="BringPackage.cs" />
     <Compile Include="BringPackagePrice.cs" />
+    <Compile Include="BringPickupPoint.cs" />
+    <Compile Include="BringPickupPointRequest.cs" />
+    <Compile Include="BringPickupPointResponse.cs" />
+    <Compile Include="BringPickupPointService.cs" />
+    <Compile Include="BringPostalCodeResponse.cs" />
+    <Compile Include="BringPostalCodeService.cs" />
     <Compile Include="BringPrice.cs" />
     <Compile Include="BringProduct.cs" />
+    <Compile Include="BringRecipientSignature.cs" />
     <Compile Include="BringShipmentRequest.cs" />
     <Compile Include="BringShipmentResponse.cs" />
     <Compile Include="BringShippingGuideService.cs" />
+    <Compile Include="BringTrackingConsignment.cs" />
+    <Compile Include="BringTrackingEvent.cs" />
+    <Compile Include="BringTrackingResponse.cs" />
+    <Compile Include="BringTrackingService.cs" />
+    <Compile Include="BringTrackingStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
