@@ -1,5 +1,5 @@
-﻿# printnode-net
-A C# library for communicating with the PrintNode API
+﻿# bringapi-net
+A C# library for communicating with the Bring API
 
 ## Getting started
 Some of the methods described below require you to define a client Url that points to the app or service you're calling Bring from.
