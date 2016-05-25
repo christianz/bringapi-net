@@ -13,7 +13,7 @@ var result = await postalCodeService.GetPostalCode("http://my.website.com", "361
 Console.WriteLine(result.Result);
 ```
 
-`KONGSBERG`
+> `KONGSBERG`
 
 ```csharp
 var result = await postalCodeService.GetPostalCode("http://my.website.com", "2412", BringCountry.Denmark);
@@ -21,5 +21,5 @@ var result = await postalCodeService.GetPostalCode("http://my.website.com", "241
 Console.WriteLine(result.Result);
 ```
 
-`København NV`
+> `København NV`
 
